@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  tel1: MyString
+  tel2: MyString
+  nextel: MyString
+  email: MyString
+  regions: 
+
+two:
+  name: MyString
+  tel1: MyString
+  tel2: MyString
+  nextel: MyString
+  email: MyString
+  regions: 

@@ -1,0 +1,29 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  order_type: 
+  order_category: 
+  client: 
+  account: 
+  technical: 
+  technical_information: 2011-01-27 22:35:01
+  status: MyString
+  description: MyText
+  observation: MyText
+  notification: false
+  first_call_fix: false
+  done: false
+
+two:
+  order_type: 
+  order_category: 
+  client: 
+  account: 
+  technical: 
+  technical_information: 2011-01-27 22:35:01
+  status: MyString
+  description: MyText
+  observation: MyText
+  notification: false
+  first_call_fix: false
+  done: false

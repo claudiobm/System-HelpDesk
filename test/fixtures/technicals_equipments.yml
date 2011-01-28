@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  equipment: 
+  technical: 
+  confirmation: false
+  archive: false
+
+two:
+  equipment: 
+  technical: 
+  confirmation: false
+  archive: false

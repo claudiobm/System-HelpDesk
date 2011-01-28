@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @equipment.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @equipment.description %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%=h @equipment.amount %>
+</p>
+
+<p>
+  <b>Delivery date:</b>
+  <%=h @equipment.delivery_date %>
+</p>
+
+
+<%= link_to 'Edit', edit_equipment_path(@equipment) %> |
+<%= link_to 'Back', equipment_path %>

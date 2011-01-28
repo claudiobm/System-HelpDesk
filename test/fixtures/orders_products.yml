@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  product: 
+  order: 
+  amount: 1.5
+  lote: MyString
+  resolved: false
+  description: MyText
+
+two:
+  product: 
+  order: 
+  amount: 1.5
+  lote: MyString
+  resolved: false
+  description: MyText

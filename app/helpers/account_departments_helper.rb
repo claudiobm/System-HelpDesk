@@ -1,0 +1,2 @@
+module AccountDepartmentsHelper
+end

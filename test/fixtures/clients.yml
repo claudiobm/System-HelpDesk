@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  tel1: MyString
+  tel2: MyString
+  contact: MyString
+  parent_id: 1
+  observation: MyText
+
+two:
+  name: MyString
+  tel1: MyString
+  tel2: MyString
+  contact: MyString
+  parent_id: 1
+  observation: MyText

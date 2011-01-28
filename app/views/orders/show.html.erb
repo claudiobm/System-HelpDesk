@@ -1,0 +1,63 @@
+<p>
+  <b>Order type:</b>
+  <%=h @order.order_type %>
+</p>
+
+<p>
+  <b>Order category:</b>
+  <%=h @order.order_category %>
+</p>
+
+<p>
+  <b>Client:</b>
+  <%=h @order.client %>
+</p>
+
+<p>
+  <b>Account:</b>
+  <%=h @order.account %>
+</p>
+
+<p>
+  <b>Technical:</b>
+  <%=h @order.technical %>
+</p>
+
+<p>
+  <b>Technical information:</b>
+  <%=h @order.technical_information %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%=h @order.status %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @order.description %>
+</p>
+
+<p>
+  <b>Observation:</b>
+  <%=h @order.observation %>
+</p>
+
+<p>
+  <b>Notification:</b>
+  <%=h @order.notification %>
+</p>
+
+<p>
+  <b>First call fix:</b>
+  <%=h @order.first_call_fix %>
+</p>
+
+<p>
+  <b>Done:</b>
+  <%=h @order.done %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_path(@order) %> |
+<%= link_to 'Back', orders_path %>

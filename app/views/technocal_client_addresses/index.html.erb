@@ -1,0 +1,22 @@
+<h1>Listing technocal_client_addresses</h1>
+
+<table>
+  <tr>
+    <th>Technical</th>
+    <th>Client address</th>
+  </tr>
+
+<% @technocal_client_addresses.each do |technocal_client_address| %>
+  <tr>
+    <td><%=h technocal_client_address.technical %></td>
+    <td><%=h technocal_client_address.client_address %></td>
+    <td><%= link_to 'Show', technocal_client_address %></td>
+    <td><%= link_to 'Edit', edit_technocal_client_address_path(technocal_client_address) %></td>
+    <td><%= link_to 'Destroy', technocal_client_address, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New technocal_client_address', new_technocal_client_address_path %>

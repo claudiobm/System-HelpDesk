@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  description: MyText
+  amount: 1.5
+  delivery_date: 2011-01-27 22:34:37
+
+two:
+  name: MyString
+  description: MyText
+  amount: 1.5
+  delivery_date: 2011-01-27 22:34:37

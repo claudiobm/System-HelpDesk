@@ -1,0 +1,14 @@
+script/generate scaffold Client name:string tel1:string tel2:string contact:string parent_id:integer observation:text
+script/generate scaffold ClientAddress client:references title:string address:string city:string state:string district:string zipcode:string default:boolean
+script/generate scaffold Account name:string email:string account_department:references
+script/generate scaffold AccountDepartment name:string description:text
+script/generate scaffold Technical name:string tel1:string tel2:string nextel:string email:string regions:references
+script/generate scaffold TechnocalClientAddress technical:references client_address:references
+script/generate scaffold TechnicalsEquipments equipment:references technical:references confirmation:boolean archive:boolean
+script/generate scaffold Equipment name:string description:text amount:float delivery_date:datetime
+script/generate scaffold Order order_type:references order_category:references client:references account:references technical:references technical_information:datetime status:string description:text observation:text notification:boolean first_call_fix:boolean done:boolean
+script/generate scaffold OrderType name:string description:text
+script/generate scaffold OrderCategory name:string description:text
+script/generate scaffold OrdersProducts product:references order:references amount:float lote:string resolved:boolean description:text
+script/generate scaffold Product name:string cod:string cod_universal:string description:text product_category:references
+script/generate scaffold ProductCategory name:string description:text

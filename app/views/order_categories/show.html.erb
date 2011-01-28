@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @order_category.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @order_category.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_order_category_path(@order_category) %> |
+<%= link_to 'Back', order_categories_path %>
