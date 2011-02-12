@@ -1,0 +1,33 @@
+<p>
+  <b>Product:</b>
+  <%=h @orders_product.product %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%=h @orders_product.order %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%=h @orders_product.amount %>
+</p>
+
+<p>
+  <b>Lote:</b>
+  <%=h @orders_product.lote %>
+</p>
+
+<p>
+  <b>Resolved:</b>
+  <%=h @orders_product.resolved %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @orders_product.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_orders_product_path(@orders_product) %> |
+<%= link_to 'Voltar', admin_orders_products_path %>

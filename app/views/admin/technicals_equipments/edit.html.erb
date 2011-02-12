@@ -1,0 +1,28 @@
+<h1>Editing technicals_equipment</h1>
+
+<% form_for([:admin, @technicals_equipment]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :equipment %><br />
+    <%= f.text_field :equipment %>
+  </p>
+  <p>
+    <%= f.label :technical %><br />
+    <%= f.text_field :technical %>
+  </p>
+  <p>
+    <%= f.label :confirmation %><br />
+    <%= f.check_box :confirmation %>
+  </p>
+  <p>
+    <%= f.label :archive %><br />
+    <%= f.check_box :archive %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Visualizar', admin_technicals_equipment_path(@technicals_equipment) %> |
+<%= link_to 'Voltar', admin_technicals_equipments_path %>

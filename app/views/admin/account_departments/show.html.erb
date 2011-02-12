@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @account_department.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @account_department.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_account_department_path(@account_department) %> |
+<%= link_to 'Voltar', admin_account_departments_path %>

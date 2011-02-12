@@ -1,0 +1,28 @@
+<h1>Listing products</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Cod</th>
+    <th>Cod universal</th>
+    <th>Description</th>
+    <th>Product category</th>
+  </tr>
+
+<% @products.each do |product| %>
+  <tr>
+    <td><%=h product.name %></td>
+    <td><%=h product.cod %></td>
+    <td><%=h product.cod_universal %></td>
+    <td><%=h product.description %></td>
+    <td><%=h product.product_category %></td>
+    <td><%= link_to 'Visualizar', admin_product_path(product) %></td>
+    <td><%= link_to 'Edit', edit_admin_product_path(product) %></td>
+    <td><%= link_to 'Excluir', admin_product_path(product), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New product', new_admin_product_path %>

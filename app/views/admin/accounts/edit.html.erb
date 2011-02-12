@@ -1,0 +1,24 @@
+<h1>Editing account</h1>
+
+<% form_for([:admin, @account]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :account_department %><br />
+    <%= f.text_field :account_department %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Visualizar', admin_account_path(@account) %> |
+<%= link_to 'Voltar', admin_accounts_path %>

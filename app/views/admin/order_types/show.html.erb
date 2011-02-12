@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @order_type.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @order_type.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_admin_order_type_path(@order_type) %> |
+<%= link_to 'Voltar', admin_order_types_path %>
