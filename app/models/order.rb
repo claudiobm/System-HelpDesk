@@ -5,3 +5,4 @@ class Order < ActiveRecord::Base
   belongs_to :account
   belongs_to :technical
 end
+# Order e a ordem de servico

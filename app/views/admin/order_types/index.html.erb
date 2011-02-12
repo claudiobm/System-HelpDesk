@@ -1,0 +1,22 @@
+<h1>Listing order_types</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% @order_types.each do |order_type| %>
+  <tr>
+    <td><%=h order_type.name %></td>
+    <td><%=h order_type.description %></td>
+    <td><%= link_to 'Visualizar', admin_order_type_path(order_type) %></td>
+    <td><%= link_to 'Edit', edit_admin_order_type_path(order_type) %></td>
+    <td><%= link_to 'Excluir', admin_order_type_path(order_type), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New order_type', new_admin_order_type_path %>

@@ -1,0 +1,22 @@
+<h1>Listing product_categories</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+  </tr>
+
+<% @product_categories.each do |product_category| %>
+  <tr>
+    <td><%=h product_category.name %></td>
+    <td><%=h product_category.description %></td>
+    <td><%= link_to 'Visualizar', admin_product_category_path(product_category) %></td>
+    <td><%= link_to 'Edit', edit_admin_product_category_path(product_category) %></td>
+    <td><%= link_to 'Excluir', admin_product_category_path(product_category), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New product_category', new_admin_product_category_path %>

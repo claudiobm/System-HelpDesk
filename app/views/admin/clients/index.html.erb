@@ -1,0 +1,30 @@
+<h1>Listing clients</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Tel1</th>
+    <th>Tel2</th>
+    <th>Contact</th>
+    <th>Parent</th>
+    <th>Observation</th>
+  </tr>
+
+<% @clients.each do |client| %>
+  <tr>
+    <td><%=h client.name %></td>
+    <td><%=h client.tel1 %></td>
+    <td><%=h client.tel2 %></td>
+    <td><%=h client.contact %></td>
+    <td><%=h client.parent_id %></td>
+    <td><%=h client.observation %></td>
+    <td><%= link_to 'Visualizar', admin_client_path(client) %></td>
+    <td><%= link_to 'Edit', edit_admin_client_path(client) %></td>
+    <td><%= link_to 'Excluir', admin_client_path(client), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New client', new_admin_client_path %>
