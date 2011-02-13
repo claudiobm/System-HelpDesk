@@ -1,6 +1,5 @@
 class Admin::ClientAddressesController < Admin::AdminController
-  # GET /client_addresses
-  # GET /client_addresses.xml
+
   def index
     @client_addresses = ClientAddress.all
 
@@ -10,8 +9,6 @@ class Admin::ClientAddressesController < Admin::AdminController
     end
   end
 
-  # GET /client_addresses/1
-  # GET /client_addresses/1.xml
   def show
     @client_address = ClientAddress.find(params[:id])
 
@@ -21,8 +18,6 @@ class Admin::ClientAddressesController < Admin::AdminController
     end
   end
 
-  # GET /client_addresses/new
-  # GET /client_addresses/new.xml
   def new
     @client_address = ClientAddress.new
 
@@ -32,13 +27,17 @@ class Admin::ClientAddressesController < Admin::AdminController
     end
   end
 
-  # GET /client_addresses/1/edit
   def edit
     @client_address = ClientAddress.find(params[:id])
+    @address = @client_address
+    @client = @client_address.client
+    
+    respond_to do |format|
+    	format.js
+    	format.html
+    end
   end
 
-  # POST /client_addresses
-  # POST /client_addresses.xml
   def create
     @client_address = ClientAddress.new(params[:client_address])
 
@@ -53,8 +52,6 @@ class Admin::ClientAddressesController < Admin::AdminController
     end
   end
 
-  # PUT /client_addresses/1
-  # PUT /client_addresses/1.xml
   def update
     @client_address = ClientAddress.find(params[:id])
 
@@ -69,15 +66,17 @@ class Admin::ClientAddressesController < Admin::AdminController
     end
   end
 
-  # DELETE /client_addresses/1
-  # DELETE /client_addresses/1.xml
   def destroy
     @client_address = ClientAddress.find(params[:id])
     @client_address.destroy
+    
+    @id_address = "#address_#{params[:id]}"
 
     respond_to do |format|
       format.html { redirect_to(client_addresses_url) }
+      format.js { render :inline => "jQuery('<%= @id_address %>').fadeOut()"}
       format.xml  { head :ok }
     end
   end
+  
 end

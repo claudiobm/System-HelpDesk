@@ -10,3 +10,23 @@ jQuery('.new_address').click(function(){
 	jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/clients/shared/address") %>');
 	jQuery('#form_modal').dialog('open');
 });
+
+jQuery('.destroy_address').click(function(){
+	var id = jQuery(this).attr('id_address')
+
+	jQuery.ajax({
+		type: "delete",
+		url: "/admin/client_addresses/"+id,
+		dataType: "script"
+	});
+});
+
+jQuery('.edit_address').click(function(){
+	var id = jQuery(this).attr('id_address')
+
+	jQuery.ajax({
+		type: "get",
+		url: "/admin/client_addresses/edit/"+id,
+		dataType: "script"
+	});
+});

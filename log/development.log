@@ -4049,3 +4049,2731 @@ Rendered admin/clients/js/_address (20.9ms)
 Rendered admin/clients/shared/_show_address (0.6ms)
 Rendered admin/clients/_form (33.2ms)
 Completed in 54ms (View: 43, DB: 2) | 200 OK [http://localhost/admin/clients/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#index (for 127.0.0.1 at 2011-02-13 19:25:08) [GET]
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+Rendering template within layouts/admin
+Rendering admin/clients/index
+  [4;36;1mClient Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+Completed in 51ms (View: 41, DB: 1) | 200 OK [http://localhost/admin/clients]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:25:11) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (3.8ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.0ms)
+Rendered admin/clients/shared/_address (74.8ms)
+Rendered admin/clients/js/_address (75.8ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (87.4ms)
+Completed in 105ms (View: 90, DB: 5) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:26:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (19.9ms)
+Rendered admin/clients/js/_address (20.8ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.2ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (35.1ms)
+Completed in 52ms (View: 41, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:29:26) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (19.9ms)
+Rendered admin/clients/js/_address (21.7ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.2ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.3ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (40.7ms)
+Completed in 57ms (View: 46, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:30:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (20.3ms)
+Rendered admin/clients/js/_address (21.5ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.3ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (36.7ms)
+Completed in 54ms (View: 43, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-13 19:32:06) [DELETE]
+
+ActionController::RoutingError (No route matches "/degrees/undefined" with {:method=>:delete}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-13 19:32:07) [DELETE]
+
+ActionController::RoutingError (No route matches "/degrees/undefined" with {:method=>:delete}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:34:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (20.5ms)
+Rendered admin/clients/js/_address (22.2ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.3ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (40.5ms)
+Completed in 57ms (View: 47, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-13 19:34:28) [DELETE]
+
+ActionController::RoutingError (No route matches "/admin/client_addressess/1" with {:method=>:delete}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-13 19:34:28) [DELETE]
+
+ActionController::RoutingError (No route matches "/admin/client_addressess/undefined" with {:method=>:delete}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-13 19:35:08) [GET]
+
+ActionController::RoutingError (No route matches "/admin/client_addressess" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#index (for 127.0.0.1 at 2011-02-13 19:35:11) [GET]
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` [0m
+Rendering template within layouts/admin
+Rendering admin/client_addresses/index
+  [4;36;1mClientAddress Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 1) [0m
+Completed in 38ms (View: 28, DB: 2) | 200 OK [http://localhost/admin/client_addresses]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:35:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.6ms)
+Rendered admin/clients/shared/_address (20.7ms)
+Rendered admin/clients/js/_address (22.4ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (37.2ms)
+Completed in 54ms (View: 43, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:35:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.0ms)
+Rendered admin/clients/shared/_address (76.9ms)
+Rendered admin/clients/js/_address (78.6ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.3ms)
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (97.9ms)
+Completed in 114ms (View: 104, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:35:59) [DELETE]
+  Parameters: {"id"=>"1"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Destroy (15.1ms)[0m   [0mDELETE FROM `client_addresses` WHERE `id` = 1[0m
+  [4;36;1mSQL (60.1ms)[0m   [0;1mCOMMIT[0m
+
+NameError (undefined local variable or method `client_addresses_url' for #<Admin::ClientAddressesController:0xb6dbc5e8>):
+  app/controllers/admin/client_addresses_controller.rb:79
+  app/controllers/admin/client_addresses_controller.rb:78:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:35:59) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:75:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:36:07) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (20.5ms)
+Rendered admin/clients/js/_address (21.4ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (31.2ms)
+Completed in 47ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:43:55) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (20.1ms)
+Rendered admin/clients/js/_address (21.9ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.3ms)
+Rendered admin/clients/_form (39.6ms)
+Completed in 57ms (View: 46, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:44:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.0ms)
+Rendered admin/clients/shared/_address (21.6ms)
+Rendered admin/clients/js/_address (22.6ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (32.6ms)
+Completed in 50ms (View: 39, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote (for 127.0.0.1 at 2011-02-13 19:44:42) [POST]
+  Parameters: {"client_address"=>{"city"=>"City 4 modal", "address"=>"Address 4 modal", "title"=>"Title 4 modal", "default"=>"0", "zipcode"=>"Zipcode 4 modal", "district"=>"District 4 modal", "client_id"=>"2", "state"=>"State 4 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M="}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Create (0.2ms)[0m   [0mINSERT INTO `client_addresses` (`address`, `city`, `created_at`, `title`, `district`, `zipcode`, `default`, `updated_at`, `client_id`, `state`) VALUES('Address 4 modal', 'City 4 modal', '2011-02-13 21:44:42', 'Title 4 modal', 'District 4 modal', 'Zipcode 4 modal', 0, '2011-02-13 21:44:42', 2, 'State 4 modal')[0m
+  [4;36;1mSQL (34.5ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote
+Rendered admin/clients/shared/_show_address (1.0ms)
+Completed in 52ms (View: 4, DB: 36) | 200 OK [http://localhost/admin/clients/address_remote]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:44:44) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.6ms)
+Rendered admin/clients/shared/_address (21.1ms)
+Rendered admin/clients/js/_address (22.1ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (33.1ms)
+Completed in 51ms (View: 39, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:44:47) [DELETE]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 2) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Destroy (0.2ms)[0m   [0mDELETE FROM `client_addresses` WHERE `id` = 2[0m
+  [4;36;1mSQL (37.2ms)[0m   [0;1mCOMMIT[0m
+Completed in 53ms (View: 2, DB: 39) | 200 OK [http://localhost/admin/client_addresses/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:44:47) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:44:55) [DELETE]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=2):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:44:55) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (105.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote (for 127.0.0.1 at 2011-02-13 19:45:51) [POST]
+  Parameters: {"client_address"=>{"city"=>"City 5 moda", "address"=>"Address 5 moda", "title"=>"Title 5 moda", "default"=>"0", "zipcode"=>"Zipcode 5 moda", "district"=>"District 5 moda", "client_id"=>"2", "state"=>"State 5 moda"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M="}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Create (0.2ms)[0m   [0mINSERT INTO `client_addresses` (`address`, `city`, `created_at`, `title`, `district`, `zipcode`, `default`, `updated_at`, `client_id`, `state`) VALUES('Address 5 moda', 'City 5 moda', '2011-02-13 21:45:51', 'Title 5 moda', 'District 5 moda', 'Zipcode 5 moda', 0, '2011-02-13 21:45:51', 2, 'State 5 moda')[0m
+  [4;36;1mSQL (35.4ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote
+Rendered admin/clients/shared/_show_address (1.1ms)
+Completed in 53ms (View: 4, DB: 36) | 200 OK [http://localhost/admin/clients/address_remote]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:45:52) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.2ms)
+Rendered admin/clients/shared/_address (20.8ms)
+Rendered admin/clients/js/_address (21.7ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (32.1ms)
+Completed in 48ms (View: 38, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:45:55) [DELETE]
+  Parameters: {"id"=>"4"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 4) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Destroy (0.2ms)[0m   [0mDELETE FROM `client_addresses` WHERE `id` = 4[0m
+  [4;36;1mSQL (42.0ms)[0m   [0;1mCOMMIT[0m
+Completed in 59ms (View: 2, DB: 43) | 200 OK [http://localhost/admin/client_addresses/4]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:45:55) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.2ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:45:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.3ms)
+Rendered admin/clients/shared/_address (83.8ms)
+Rendered admin/clients/js/_address (84.9ms)
+  [4;36;1mClient Load (0.2ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (95.6ms)
+Completed in 112ms (View: 101, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote (for 127.0.0.1 at 2011-02-13 19:47:07) [POST]
+  Parameters: {"client_address"=>{"city"=>"City 6 modal", "address"=>"Address 6 modal", "title"=>"Title 6 modal", "default"=>"0", "zipcode"=>"Zipcode 6 modal", "district"=>"District 6 modal", "client_id"=>"2", "state"=>"State 6 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M="}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Create (0.2ms)[0m   [0mINSERT INTO `client_addresses` (`address`, `city`, `created_at`, `title`, `district`, `zipcode`, `default`, `updated_at`, `client_id`, `state`) VALUES('Address 6 modal', 'City 6 modal', '2011-02-13 21:47:07', 'Title 6 modal', 'District 6 modal', 'Zipcode 6 modal', 0, '2011-02-13 21:47:07', 2, 'State 6 modal')[0m
+  [4;36;1mSQL (39.4ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote
+Rendered admin/clients/shared/_show_address (1.1ms)
+Completed in 57ms (View: 4, DB: 41) | 200 OK [http://localhost/admin/clients/address_remote]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:47:10) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.0ms)
+Rendered admin/clients/shared/_address (76.3ms)
+Rendered admin/clients/js/_address (77.3ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (89.1ms)
+Completed in 106ms (View: 95, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:47:13) [DELETE]
+  Parameters: {"id"=>"5"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 5) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Destroy (0.2ms)[0m   [0mDELETE FROM `client_addresses` WHERE `id` = 5[0m
+  [4;36;1mSQL (30.8ms)[0m   [0;1mCOMMIT[0m
+Completed in 45ms (View: 2, DB: 32) | 200 OK [http://localhost/admin/client_addresses/5]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:47:13) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (96.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:47:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (20.4ms)
+Rendered admin/clients/js/_address (21.4ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (31.3ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:47:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.7ms)
+Rendered admin/clients/shared/_address (21.9ms)
+Rendered admin/clients/js/_address (23.1ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (33.5ms)
+Completed in 106ms (View: 95, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote (for 127.0.0.1 at 2011-02-13 19:48:29) [POST]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M="}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Create (0.2ms)[0m   [0mINSERT INTO `client_addresses` (`address`, `city`, `created_at`, `title`, `district`, `zipcode`, `default`, `updated_at`, `client_id`, `state`) VALUES('Address 7 modal', 'City 7 modal', '2011-02-13 21:48:29', 'Title 7 modal', 'District 7 modal', 'Zipcode 7 modal', 0, '2011-02-13 21:48:29', 2, 'State 7 modal')[0m
+  [4;36;1mSQL (41.4ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote
+Rendered admin/clients/shared/_show_address (0.6ms)
+Completed in 57ms (View: 2, DB: 42) | 200 OK [http://localhost/admin/clients/address_remote]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:48:41) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.6ms)
+Rendered admin/clients/shared/_address (77.7ms)
+Rendered admin/clients/js/_address (78.7ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (90.2ms)
+Completed in 107ms (View: 96, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:48:42) [DELETE]
+  Parameters: {"id"=>"6"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 6) [0m
+Completed in 12ms (View: 1, DB: 1) | 200 OK [http://localhost/admin/client_addresses/6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:48:43) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (93.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:48:57) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.5ms)
+Rendered admin/clients/shared/_address (20.1ms)
+Rendered admin/clients/js/_address (21.1ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.5ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:48:59) [DELETE]
+  Parameters: {"id"=>"6"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 6) [0m
+Completed in 13ms (View: 1, DB: 1) | 200 OK [http://localhost/admin/client_addresses/6]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:48:59) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:49:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (19.6ms)
+Rendered admin/clients/js/_address (20.6ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.0ms)
+Completed in 47ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:50:00) [DELETE]
+  Parameters: {"id"=>"6"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 6) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Destroy (0.2ms)[0m   [0mDELETE FROM `client_addresses` WHERE `id` = 6[0m
+  [4;36;1mSQL (63.3ms)[0m   [0;1mCOMMIT[0m
+Completed in 80ms (View: 3, DB: 65) | 200 OK [http://localhost/admin/client_addresses/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:50:00) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.2ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:50:15) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.9ms)
+Rendered admin/clients/shared/_address (22.6ms)
+Rendered admin/clients/js/_address (23.7ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (34.1ms)
+Completed in 108ms (View: 40, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:50:32) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (19.8ms)
+Rendered admin/clients/js/_address (20.7ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (30.3ms)
+Completed in 47ms (View: 36, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:50:33) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Completed in 12ms (View: 1, DB: 1) | 200 OK [http://localhost/admin/client_addresses/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:50:33) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:51:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.6ms)
+Rendered admin/clients/shared/_address (21.0ms)
+Rendered admin/clients/js/_address (22.2ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (32.4ms)
+Completed in 50ms (View: 39, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:51:24) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+
+NameError (undefined local variable or method `id_address' for #<ActionView::Base:0xb6d95f10>):
+  compiled-template:1:in `_run_inline_504070392'
+  app/controllers/admin/client_addresses_controller.rb:72
+  app/controllers/admin/client_addresses_controller.rb:70:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (107.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:51:24) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:51:25) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+
+NameError (undefined local variable or method `id_address' for #<ActionView::Base:0xb6cd5094>):
+  compiled-template:1:in `_run_inline_504070392'
+  app/controllers/admin/client_addresses_controller.rb:72
+  app/controllers/admin/client_addresses_controller.rb:70:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (112.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:51:25) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:51:49) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.2ms)
+Rendered admin/clients/shared/_address (19.4ms)
+Rendered admin/clients/js/_address (20.4ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (29.9ms)
+Completed in 46ms (View: 36, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:51:50) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Completed in 12ms (View: 1, DB: 1) | 200 OK [http://localhost/admin/client_addresses/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:51:50) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:52:40) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.9ms)
+Rendered admin/clients/shared/_address (78.2ms)
+Rendered admin/clients/js/_address (79.2ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (89.2ms)
+Completed in 106ms (View: 95, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:52:42) [DELETE]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Completed in 12ms (View: 1, DB: 1) | 200 OK [http://localhost/admin/client_addresses/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#destroy (for 127.0.0.1 at 2011-02-13 19:52:42) [DELETE]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:63:in `destroy'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 19:52:53) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (10.0ms)
+Rendered admin/clients/shared/_address (21.7ms)
+Rendered admin/clients/js/_address (22.7ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (32.3ms)
+Completed in 49ms (View: 38, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote (for 127.0.0.1 at 2011-02-13 19:53:53) [POST]
+  Parameters: {"client_address"=>{"city"=>"City 8 modal", "address"=>"Address 8 modal", "title"=>"Title 8 modal", "default"=>"0", "zipcode"=>"Zipcode 8 modal", "district"=>"District 8 modal", "client_id"=>"2", "state"=>"State 8 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M="}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Create (0.3ms)[0m   [0mINSERT INTO `client_addresses` (`address`, `city`, `created_at`, `title`, `district`, `zipcode`, `default`, `updated_at`, `client_id`, `state`) VALUES('Address 8 modal', 'City 8 modal', '2011-02-13 21:53:53', 'Title 8 modal', 'District 8 modal', 'Zipcode 8 modal', 0, '2011-02-13 21:53:53', 2, 'State 8 modal')[0m
+  [4;36;1mSQL (35.3ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote
+Rendered admin/clients/shared/_show_address (0.8ms)
+Completed in 53ms (View: 3, DB: 37) | 200 OK [http://localhost/admin/clients/address_remote]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:03:26) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (6.4ms)
+Rendered admin/clients/shared/_address (20.6ms)
+Rendered admin/clients/js/_address (22.4ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (36.8ms)
+Completed in 54ms (View: 42, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:03:28) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Rendering admin/client_addresses/edit
+Completed in 73ms (View: 7, DB: 1) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:03:28) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:32:40) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.1ms)
+Rendered admin/clients/shared/_address (20.3ms)
+Rendered admin/clients/js/_address (24.6ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (34.7ms)
+Completed in 51ms (View: 40, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:32:53) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Rendering admin/client_addresses/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/admin/clients/shared/_address.html.erb:
+1: <% form_remote_for ClientAddress.new(:client_id => @client.id), :url => '/admin/clients/address_remote' do |address| %>
+2: 	<%= address.hidden_field :client_id %>
+3: 	<%= render :partial => '/admin/client_addresses/form', :locals => {:f => address} %>
+4: 	<p>
+
+    app/views/admin/clients/shared/_address.html.erb:1
+    app/views/admin/client_addresses/edit.js.erb:2
+    app/controllers/admin/client_addresses_controller.rb:33:in `edit'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (57.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:32:53) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:34:11) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.2ms)
+
+ActionView::TemplateError (undefined local variable or method `client_address' for #<ActionView::Base:0xb6d84878>) on line #9 of app/views/admin/clients/shared/_address.html.erb:
+6: 	</p>
+7: <% end %>
+8: 
+9: <pre><%= client_address.to_yaml %></pre>
+
+    app/views/admin/clients/shared/_address.html.erb:9
+    app/views/admin/clients/js/_address.html.erb:10
+    app/views/admin/clients/_form.html.erb:2
+    app/views/admin/clients/_form.html.erb:1
+    app/views/admin/clients/edit.html.erb:4
+    app/views/admin/clients/edit.html.erb:3
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (146.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:34:18) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.5ms)
+Rendered admin/clients/shared/_address (20.5ms)
+Rendered admin/clients/js/_address (24.9ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (35.2ms)
+Completed in 52ms (View: 41, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:34:35) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Rendering admin/client_addresses/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/admin/clients/shared/_address.html.erb:
+1: <% form_remote_for ClientAddress.new(:client_id => @client.id), :url => '/admin/clients/address_remote' do |address| %>
+2: 	<%= address.hidden_field :client_id %>
+3: 	<%= render :partial => '/admin/client_addresses/form', :locals => {:f => address} %>
+4: 	<p>
+
+    app/views/admin/clients/shared/_address.html.erb:1
+    app/views/admin/client_addresses/edit.js.erb:2
+    app/controllers/admin/client_addresses_controller.rb:33:in `edit'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:34:36) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (106.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:34:48) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Rendering template within layouts/admin
+Rendering admin/client_addresses/edit
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Completed in 41ms (View: 30, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:35:24) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.3ms)
+Rendered admin/clients/shared/_address (76.8ms)
+Rendered admin/clients/js/_address (81.2ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/_form (92.3ms)
+Completed in 109ms (View: 98, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:35:28) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Rendering admin/client_addresses/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/admin/clients/shared/_address.html.erb:
+1: <% form_remote_for ClientAddress.new(:client_id => @client.id), :url => '/admin/clients/address_remote' do |address| %>
+2: 	<%= address.hidden_field :client_id %>
+3: 	<%= render :partial => '/admin/client_addresses/form', :locals => {:f => address} %>
+4: 	<p>
+
+    app/views/admin/clients/shared/_address.html.erb:1
+    app/views/admin/client_addresses/edit.js.erb:2
+    app/controllers/admin/client_addresses_controller.rb:33:in `edit'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (119.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:35:28) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (35.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:35:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.5ms)
+Rendered admin/clients/shared/_address (19.9ms)
+Rendered admin/clients/js/_address (20.8ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.0ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:35:36) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Rendering admin/client_addresses/edit
+
+ActionView::TemplateError (Called id for nil, which would mistakenly be 4 -- if you really wanted the id of nil, use object_id) on line #1 of app/views/admin/clients/shared/_address.html.erb:
+1: <% form_remote_for ClientAddress.new(:client_id => @client.id), :url => '/admin/clients/address_remote' do |address| %>
+2: 	<%= address.hidden_field :client_id %>
+3: 	<%= render :partial => '/admin/client_addresses/form', :locals => {:f => address} %>
+4: 	<p>
+
+    app/views/admin/clients/shared/_address.html.erb:1
+    app/views/admin/client_addresses/edit.js.erb:2
+    app/controllers/admin/client_addresses_controller.rb:33:in `edit'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:35:36) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:36:38) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.1ms)
+Rendered admin/clients/shared/_address (20.2ms)
+Rendered admin/clients/js/_address (21.1ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.3ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:36:40) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (11.6ms)
+Rendered admin/clients/shared/_address (18.5ms)
+Completed in 39ms (View: 21, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:36:40) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:37:53) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (10.5ms)
+Rendered admin/clients/shared/_address (76.2ms)
+Completed in 95ms (View: 79, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:37:53) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:42:11) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (6.0ms)
+Rendered admin/clients/shared/_address (17.5ms)
+Rendered admin/clients/js/_address (20.7ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (30.8ms)
+Completed in 47ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:42:19) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (32.9ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.2ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (8.8ms)
+Rendered admin/clients/shared/_address_edit (17.3ms)
+Completed in 87ms (View: 36, DB: 34) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:42:19) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.6ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#update (for 127.0.0.1 at 2011-02-13 20:45:18) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"address_remote"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.2ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Client with ID=address_remote):
+  app/controllers/admin/clients_controller.rb:77:in `update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:45:33) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.4ms)
+Rendered admin/clients/shared/_address (19.8ms)
+Rendered admin/clients/js/_address (20.7ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (30.9ms)
+Completed in 47ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:45:35) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (11.6ms)
+Rendered admin/clients/shared/_address_edit (18.8ms)
+Completed in 43ms (View: 25, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:45:35) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#update (for 127.0.0.1 at 2011-02-13 20:46:23) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"address_remote_update"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Client with ID=address_remote_update):
+  app/controllers/admin/clients_controller.rb:77:in `update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:49:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.6ms)
+Rendered admin/clients/shared/_address (20.6ms)
+Rendered admin/clients/js/_address (21.6ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (32.0ms)
+Completed in 49ms (View: 38, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:49:24) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (69.2ms)
+Rendered admin/clients/shared/_address_edit (75.2ms)
+Completed in 95ms (View: 78, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:49:24) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#update (for 127.0.0.1 at 2011-02-13 20:50:50) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"address_remote_update"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Client with ID=address_remote_update):
+  app/controllers/admin/clients_controller.rb:77:in `update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (37.3ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:53:50) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.6ms)
+Rendered admin/clients/shared/_address (82.9ms)
+Rendered admin/clients/js/_address (89.2ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.4ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (111.5ms)
+Completed in 152ms (View: 134, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:53:53) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (10.9ms)
+Rendered admin/clients/shared/_address_edit (18.2ms)
+Completed in 45ms (View: 28, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:53:54) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.4ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.3ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 20:54:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.5ms)
+Rendered admin/clients/shared/_address (19.9ms)
+Rendered admin/clients/js/_address (20.9ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.1ms)
+Completed in 47ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:54:24) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (11.5ms)
+Rendered admin/clients/shared/_address_edit (18.8ms)
+Completed in 43ms (View: 25, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 20:54:25) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.3ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 20:55:38) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/admin/clients/address_remote_update/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:01:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (6.1ms)
+Rendered admin/clients/shared/_address (17.8ms)
+Rendered admin/clients/js/_address (18.8ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (1.4ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (33.4ms)
+Completed in 52ms (View: 42, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:03:06) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (20.9ms)
+Rendered admin/clients/js/_address (21.8ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (32.2ms)
+Completed in 49ms (View: 38, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:03:08) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (13.0ms)
+Rendered admin/clients/shared/_address_edit (19.9ms)
+Completed in 96ms (View: 23, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:03:08) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (38.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:03:12) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Update (0.3ms)[0m   [0mUPDATE `client_addresses` SET `updated_at` = '2011-02-13 23:03:12', `title` = 'Title 7 modal alter' WHERE `id` = 7[0m
+  [4;36;1mSQL (27.4ms)[0m   [0;1mCOMMIT[0m
+
+NoMethodError (undefined method `save' for true:TrueClass):
+  app/controllers/admin/clients_controller.rb:52
+  app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (102.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:03:16) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+
+NoMethodError (undefined method `save' for true:TrueClass):
+  app/controllers/admin/clients_controller.rb:52
+  app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:03:31) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.3ms)
+Rendered admin/clients/shared/_address (19.6ms)
+Rendered admin/clients/js/_address (20.5ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.4ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:04:26) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (13.4ms)
+Rendered admin/clients/shared/_address_edit (19.1ms)
+Completed in 39ms (View: 21, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:04:26) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (109.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:04:29) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal al", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mClientAddress Update (0.3ms)[0m   [0;1mUPDATE `client_addresses` SET `updated_at` = '2011-02-13 23:04:29', `title` = 'Title 7 modal al' WHERE `id` = 7[0m
+  [4;35;1mSQL (46.9ms)[0m   [0mCOMMIT[0m
+
+NoMethodError (undefined method `save' for true:TrueClass):
+  app/controllers/admin/clients_controller.rb:52
+  app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (36.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:05:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.2ms)
+Rendered admin/clients/shared/_address (19.3ms)
+Rendered admin/clients/js/_address (20.2ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (30.9ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:05:26) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (12.1ms)
+Rendered admin/clients/shared/_address_edit (18.2ms)
+Completed in 39ms (View: 21, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:05:26) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:05:33) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/admin/clients_controller.rb:49:in `address_remote_update'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (34.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:06:11) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mClientAddress Update (0.3ms)[0m   [0mUPDATE `client_addresses` SET `updated_at` = '2011-02-13 23:06:11', `title` = 'Title 7 modal alter' WHERE `id` = 7[0m
+  [4;36;1mSQL (59.2ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (undefined method `title' for true:TrueClass) on line #2 of app/views/admin/clients/shared/_show_address.html.erb:
+1: <ul id="address_<%= address.id %>" class='show_address'>
+2: 	<li class='title_address'><%= address.title %></li>
+3: 	<li class='edit_address'>
+4: 		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_address', :id_address => address.id %>
+5: 	</li>
+
+    app/views/admin/clients/shared/_show_address.html.erb:2
+    app/views/admin/clients/address_remote_update.js.erb:4
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (122.4ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:06:16) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (undefined method `title' for true:TrueClass) on line #2 of app/views/admin/clients/shared/_show_address.html.erb:
+1: <ul id="address_<%= address.id %>" class='show_address'>
+2: 	<li class='title_address'><%= address.title %></li>
+3: 	<li class='edit_address'>
+4: 		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_address', :id_address => address.id %>
+5: 	</li>
+
+    app/views/admin/clients/shared/_show_address.html.erb:2
+    app/views/admin/clients/address_remote_update.js.erb:4
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:06:58) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/admin/clients/address_remote_update/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:09:09) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+Completed in 13ms (View: 1, DB: 1) | 200 OK [http://localhost/admin/clients/address_remote_update/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:09:41) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (undefined method `title' for true:TrueClass) on line #2 of app/views/admin/clients/shared/_show_address.html.erb:
+1: <ul id="address_<%= address.id %>" class='show_address'>
+2: 	<li class='title_address'><%= address.title %></li>
+3: 	<li class='edit_address'>
+4: 		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_address', :id_address => address.id %>
+5: 	</li>
+
+    app/views/admin/clients/shared/_show_address.html.erb:2
+    app/views/admin/clients/address_remote_update.js.erb:4
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (121.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:13:03) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mClient Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;36;1mClientAddress Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (8.2ms)
+Rendered admin/clients/shared/_address (20.4ms)
+Rendered admin/clients/js/_address (21.3ms)
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` [0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (31.9ms)
+Completed in 48ms (View: 37, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:13:07) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mClient Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `clients`[0m
+  [4;35;1mClient Load (0.1ms)[0m   [0mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (11.3ms)
+Rendered admin/clients/shared/_address_edit (17.8ms)
+Completed in 39ms (View: 20, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:13:07) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.4ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:13:13) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+Completed in 17ms (View: 5, DB: 1) | 200 OK [http://localhost/admin/clients/address_remote_update/7]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:14:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (9.1ms)
+Rendered admin/clients/shared/_address (22.6ms)
+Rendered admin/clients/js/_address (23.7ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (35.5ms)
+Completed in 55ms (View: 42, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:14:30) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (11.4ms)
+Rendered admin/clients/shared/_address_edit (17.1ms)
+Completed in 37ms (View: 20, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:14:30) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:14:32) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alte", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mClientAddress Update (0.3ms)[0m   [0;1mUPDATE `client_addresses` SET `updated_at` = '2011-02-13 23:14:32', `title` = 'Title 7 modal alte' WHERE `id` = 7[0m
+  [4;35;1mSQL (32.9ms)[0m   [0mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (undefined method `title' for true:TrueClass) on line #2 of app/views/admin/clients/shared/_show_address.html.erb:
+1: <ul id="address_<%= address.id %>" class='show_address'>
+2: 	<li class='title_address'><%= address.title %></li>
+3: 	<li class='edit_address'>
+4: 		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_address', :id_address => address.id %>
+5: 	</li>
+
+    app/views/admin/clients/shared/_show_address.html.erb:2
+    app/views/admin/clients/address_remote_update.js.erb:2
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (125.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:14:33) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mClientAddress Update (0.3ms)[0m   [0;1mUPDATE `client_addresses` SET `updated_at` = '2011-02-13 23:14:33', `title` = 'Title 7 modal' WHERE `id` = 7[0m
+  [4;35;1mSQL (45.8ms)[0m   [0mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (undefined method `title' for true:TrueClass) on line #2 of app/views/admin/clients/shared/_show_address.html.erb:
+1: <ul id="address_<%= address.id %>" class='show_address'>
+2: 	<li class='title_address'><%= address.title %></li>
+3: 	<li class='edit_address'>
+4: 		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_address', :id_address => address.id %>
+5: 	</li>
+
+    app/views/admin/clients/shared/_show_address.html.erb:2
+    app/views/admin/clients/address_remote_update.js.erb:2
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (56.6ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:15:36) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.3ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (private method `gsub' called for true:TrueClass) on line #1 of app/views/admin/clients/address_remote_update.js.erb:
+1: alert("<%= escape_javascript @address %>");
+2: jQuery('#form_modal').dialog('close');
+
+    app/views/admin/clients/address_remote_update.js.erb:1
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (47.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:15:41) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;36;1mClientAddress Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.1ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+
+ActionView::TemplateError (private method `gsub' called for true:TrueClass) on line #1 of app/views/admin/clients/address_remote_update.js.erb:
+1: alert("<%= escape_javascript @address %>");
+2: jQuery('#form_modal').dialog('close');
+
+    app/views/admin/clients/address_remote_update.js.erb:1
+    app/controllers/admin/clients_controller.rb:51:in `address_remote_update'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (117.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#edit (for 127.0.0.1 at 2011-02-13 21:16:45) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mClient Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering template within layouts/admin
+Rendering admin/clients/edit
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+Rendered admin/client_addresses/_form (11.0ms)
+Rendered admin/clients/shared/_address (22.8ms)
+Rendered admin/clients/js/_address (24.1ms)
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` [0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.client_id = 2) [0m
+Rendered admin/clients/shared/_show_address (0.6ms)
+Rendered admin/clients/shared/_show_address (0.5ms)
+Rendered admin/clients/_form (35.0ms)
+Completed in 52ms (View: 41, DB: 2) | 200 OK [http://localhost/admin/clients/2/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:16:47) [GET]
+  Parameters: {"id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mClient Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `clients`[0m
+  [4;36;1mClient Load (0.1ms)[0m   [0;1mSELECT * FROM `clients` WHERE (`clients`.`id` = 2) [0m
+Rendering admin/client_addresses/edit
+Rendered admin/client_addresses/_form (11.9ms)
+Rendered admin/clients/shared/_address_edit (18.3ms)
+Completed in 39ms (View: 21, DB: 2) | 200 OK [http://localhost/admin/client_addresses/edit/7]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientAddressesController#edit (for 127.0.0.1 at 2011-02-13 21:16:47) [GET]
+  Parameters: {"id"=>"undefined"}
+  [4;36;1mClientAddress Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `client_addresses`[0m
+  [4;35;1mClientAddress Load (0.3ms)[0m   [0mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find ClientAddress with ID=undefined):
+  app/controllers/admin/client_addresses_controller.rb:31:in `edit'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Admin::ClientsController#address_remote_update (for 127.0.0.1 at 2011-02-13 21:16:50) [PUT]
+  Parameters: {"client_address"=>{"city"=>"City 7 modal", "address"=>"Address 7 modal", "title"=>"Title 7 modal alter", "default"=>"0", "zipcode"=>"Zipcode 7 modal", "district"=>"District 7 modal", "client_id"=>"2", "state"=>"State 7 modal"}, "commit"=>"Salvar", "authenticity_token"=>"PQMgIQHy3EqNAio989ZRPRANxLmjpMlYfupHWqfDc8M=", "id"=>"7"}
+  [4;35;1mClientAddress Columns (0.7ms)[0m   [0mSHOW FIELDS FROM `client_addresses`[0m
+  [4;36;1mClientAddress Load (0.1ms)[0m   [0;1mSELECT * FROM `client_addresses` WHERE (`client_addresses`.`id` = 7) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mClientAddress Update (0.3ms)[0m   [0;1mUPDATE `client_addresses` SET `updated_at` = '2011-02-13 23:16:50', `title` = 'Title 7 modal alter' WHERE `id` = 7[0m
+  [4;35;1mSQL (34.8ms)[0m   [0mCOMMIT[0m
+Rendering admin/clients/address_remote_update
+Rendered admin/clients/shared/_show_address (0.6ms)
+Completed in 119ms (View: 70, DB: 36) | 200 OK [http://localhost/admin/clients/address_remote_update/7]

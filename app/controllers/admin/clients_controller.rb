@@ -43,6 +43,15 @@ class Admin::ClientsController < Admin::AdminController
 			end
 		end
   end
+  
+  def address_remote_update
+  	@address = ClientAddress.find(params[:id])
+  	@address.update_attributes(params[:client_address])
+  	
+	  respond_to do |format|
+			format.js
+		end
+  end
 
   def create
     @client = Client.new(params[:client])
