@@ -1,0 +1,7 @@
+<% form_remote_for ClientAddress.new(:client_id => @client.id), :url => '/admin/clients/address_remote' do |address| %>
+	<%= address.hidden_field :client_id %>
+	<%= render :partial => '/admin/client_addresses/form', :locals => {:f => address} %>
+	<p>
+		<%= address.submit 'Salvar' %>
+	</p>
+<% end -%>

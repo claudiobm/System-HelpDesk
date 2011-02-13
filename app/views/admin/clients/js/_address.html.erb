@@ -1,0 +1,12 @@
+jQuery('#form_modal').dialog({
+    autoOpen: false,
+    bgiframe: true,
+    modal: true,
+    show: "blind",
+    width: "auto"
+});
+
+jQuery('.new_address').click(function(){
+	jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/clients/shared/address") %>');
+	jQuery('#form_modal').dialog('open');
+});

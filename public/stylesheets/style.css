@@ -1,0 +1,5 @@
+.show_address { display: inline; }
+.show_address li{ display: block; float: left; margin: 0 10px 0 0; }
+.show_address li.title_address{ width: 180px; }
+
+.clear { clear: both; }

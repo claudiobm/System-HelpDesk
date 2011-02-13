@@ -1,6 +1,5 @@
 class Admin::ClientsController < Admin::AdminController
-  # GET /clients
-  # GET /clients.xml
+
   def index
     @clients = Client.all
 
@@ -10,8 +9,6 @@ class Admin::ClientsController < Admin::AdminController
     end
   end
 
-  # GET /clients/1
-  # GET /clients/1.xml
   def show
     @client = Client.find(params[:id])
 
@@ -21,8 +18,6 @@ class Admin::ClientsController < Admin::AdminController
     end
   end
 
-  # GET /clients/new
-  # GET /clients/new.xml
   def new
     @client = Client.new
 
@@ -32,13 +27,23 @@ class Admin::ClientsController < Admin::AdminController
     end
   end
 
-  # GET /clients/1/edit
   def edit
     @client = Client.find(params[:id])
   end
+  
+  def address_remote
+  	@address = ClientAddress.new(params[:client_address])
+  	
+	  respond_to do |format|
+	  	if @address.save
+				format.js
+			else
+				format.js { render :inline => "alert('Erro ao cadastrar endereço tente novamente.'); 
+																			 jQuery('#form_modal').dialog('close');" }
+			end
+		end
+  end
 
-  # POST /clients
-  # POST /clients.xml
   def create
     @client = Client.new(params[:client])
 
@@ -53,8 +58,6 @@ class Admin::ClientsController < Admin::AdminController
     end
   end
 
-  # PUT /clients/1
-  # PUT /clients/1.xml
   def update
     @client = Client.find(params[:id])
 
@@ -69,8 +72,6 @@ class Admin::ClientsController < Admin::AdminController
     end
   end
 
-  # DELETE /clients/1
-  # DELETE /clients/1.xml
   def destroy
     @client = Client.find(params[:id])
     @client.destroy

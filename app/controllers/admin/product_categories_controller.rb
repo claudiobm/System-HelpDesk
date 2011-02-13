@@ -44,7 +44,7 @@ class Admin::ProductCategoriesController < Admin::AdminController
 
     respond_to do |format|
       if @product_category.save
-        format.html { redirect_to(@product_category, :notice => 'ProductCategory was successfully created.') }
+        format.html { redirect_to(admin_product_category_patch(@product_category), :notice => 'ProductCategory was successfully created.') }
         format.xml  { render :xml => @product_category, :status => :created, :location => @product_category }
       else
         format.html { render :action => "new" }

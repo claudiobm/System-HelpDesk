@@ -14,7 +14,7 @@ ActionController::Routing::Routes.draw do |map|
     admin.resources :account_departments
     admin.resources :accounts
     admin.resources :client_addresses
-    admin.resources :clients
+    admin.resources :clients, :member => { :address_remote => :post }
   end
   
   map.root :controller => "main"
