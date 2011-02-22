@@ -44,7 +44,7 @@ class Admin::OrderCategoriesController < Admin::AdminController
 
     respond_to do |format|
       if @order_category.save
-        format.html { redirect_to(@order_category, :notice => 'OrderCategory was successfully created.') }
+        format.html { redirect_to([:admin, @order_category], :notice => 'OrderCategory criada com sucesso.') }
         format.xml  { render :xml => @order_category, :status => :created, :location => @order_category }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class Admin::OrderCategoriesController < Admin::AdminController
 
     respond_to do |format|
       if @order_category.update_attributes(params[:order_category])
-        format.html { redirect_to(@order_category, :notice => 'OrderCategory was successfully updated.') }
+        format.html { redirect_to([:admin, @order_category], :notice => 'OrderCategory atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

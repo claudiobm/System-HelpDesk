@@ -44,7 +44,7 @@ class Admin::TechnocalClientAddressesController < Admin::AdminController
 
     respond_to do |format|
       if @technocal_client_address.save
-        format.html { redirect_to(@technocal_client_address, :notice => 'TechnocalClientAddress was successfully created.') }
+        format.html { redirect_to([:admin, @technocal_client_address], :notice => 'TechnocalClientAddress criada com sucesso.') }
         format.xml  { render :xml => @technocal_client_address, :status => :created, :location => @technocal_client_address }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class Admin::TechnocalClientAddressesController < Admin::AdminController
 
     respond_to do |format|
       if @technocal_client_address.update_attributes(params[:technocal_client_address])
-        format.html { redirect_to(@technocal_client_address, :notice => 'TechnocalClientAddress was successfully updated.') }
+        format.html { redirect_to([:admin, @technocal_client_address], :notice => 'TechnocalClientAddress atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

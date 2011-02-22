@@ -60,7 +60,7 @@ class Admin::ProductCategoriesController < Admin::AdminController
 
     respond_to do |format|
       if @product_category.update_attributes(params[:product_category])
-        format.html { redirect_to(@product_category, :notice => 'ProductCategory was successfully updated.') }
+        format.html { redirect_to([:admin, @product_category], :notice => 'ProductCategory atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

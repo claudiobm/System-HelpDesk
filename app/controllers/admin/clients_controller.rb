@@ -58,7 +58,7 @@ class Admin::ClientsController < Admin::AdminController
 
     respond_to do |format|
       if @client.save
-        format.html { redirect_to(@client, :notice => 'Client was successfully created.') }
+        format.html { redirect_to([:admin, @client], :notice => 'Client was successfully created.') }
         format.xml  { render :xml => @client, :status => :created, :location => @client }
       else
         format.html { render :action => "new" }
@@ -72,7 +72,7 @@ class Admin::ClientsController < Admin::AdminController
 
     respond_to do |format|
       if @client.update_attributes(params[:client])
-        format.html { redirect_to(@client, :notice => 'Client was successfully updated.') }
+        format.html { redirect_to([:admin, @client], :notice => 'Client atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

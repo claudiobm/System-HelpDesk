@@ -44,7 +44,7 @@ class Admin::OrderTypesController < Admin::AdminController
 
     respond_to do |format|
       if @order_type.save
-        format.html { redirect_to(@order_type, :notice => 'OrderType was successfully created.') }
+        format.html { redirect_to([:admin, @order_type], :notice => 'OrderType criada com sucesso.') }
         format.xml  { render :xml => @order_type, :status => :created, :location => @order_type }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class Admin::OrderTypesController < Admin::AdminController
 
     respond_to do |format|
       if @order_type.update_attributes(params[:order_type])
-        format.html { redirect_to(@order_type, :notice => 'OrderType was successfully updated.') }
+        format.html { redirect_to([:admin, @order_type], :notice => 'OrderType atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

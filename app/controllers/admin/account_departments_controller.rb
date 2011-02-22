@@ -44,7 +44,7 @@ class Admin::AccountDepartmentsController < Admin::AdminController
 
     respond_to do |format|
       if @account_department.save
-        format.html { redirect_to(@account_department, :notice => 'AccountDepartment was successfully created.') }
+        format.html { redirect_to([:admin, @account_department], :notice => 'AccountDepartment criada com sucesso.') }
         format.xml  { render :xml => @account_department, :status => :created, :location => @account_department }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class Admin::AccountDepartmentsController < Admin::AdminController
 
     respond_to do |format|
       if @account_department.update_attributes(params[:account_department])
-        format.html { redirect_to(@account_department, :notice => 'AccountDepartment was successfully updated.') }
+        format.html { redirect_to([:admin, @account_department], :notice => 'AccountDepartment atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

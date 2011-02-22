@@ -44,7 +44,7 @@ class Admin::TechnicalsEquipmentsController < Admin::AdminController
 
     respond_to do |format|
       if @technicals_equipment.save
-        format.html { redirect_to(@technicals_equipment, :notice => 'TechnicalsEquipment was successfully created.') }
+        format.html { redirect_to([:admin, @technicals_equipment], :notice => 'TechnicalsEquipment criada com sucesso.') }
         format.xml  { render :xml => @technicals_equipment, :status => :created, :location => @technicals_equipment }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class Admin::TechnicalsEquipmentsController < Admin::AdminController
 
     respond_to do |format|
       if @technicals_equipment.update_attributes(params[:technicals_equipment])
-        format.html { redirect_to(@technicals_equipment, :notice => 'TechnicalsEquipment was successfully updated.') }
+        format.html { redirect_to([:admin, @technicals_equipment], :notice => 'TechnicalsEquipment atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

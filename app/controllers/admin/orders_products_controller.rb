@@ -44,7 +44,7 @@ class Admin::OrdersProductsController < Admin::AdminController
 
     respond_to do |format|
       if @orders_product.save
-        format.html { redirect_to(@orders_product, :notice => 'OrdersProduct was successfully created.') }
+        format.html { redirect_to([:admin, @orders_product], :notice => 'OrdersProduct criada com sucesso.') }
         format.xml  { render :xml => @orders_product, :status => :created, :location => @orders_product }
       else
         format.html { render :action => "new" }
@@ -60,7 +60,7 @@ class Admin::OrdersProductsController < Admin::AdminController
 
     respond_to do |format|
       if @orders_product.update_attributes(params[:orders_product])
-        format.html { redirect_to(@orders_product, :notice => 'OrdersProduct was successfully updated.') }
+        format.html { redirect_to([:admin, @orders_product], :notice => 'OrdersProduct atualizado com sucesso.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
