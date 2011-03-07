@@ -1,0 +1,11 @@
+<div class="users">
+	<h2>Usuários</h2>
+	<ul id="users_list">
+		<% @technicals.each do |technical| %>
+			<li>
+				<%= check_box_tag "client[technicals_ids][]", technical.id, technical_belongs_to_client?(technical) -%>
+				<%= label_tag technical.name %>
+			</li>
+		<% end %>	
+	</ul>
+</div>

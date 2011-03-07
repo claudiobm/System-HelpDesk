@@ -29,6 +29,7 @@ class Admin::ClientsController < Admin::AdminController
 
   def edit
     @client = Client.find(params[:id])
+    @technicals = Technical.all
   end
   
   def address_remote

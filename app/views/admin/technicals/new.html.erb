@@ -1,35 +1,7 @@
 <h1>New technical</h1>
 
 <% form_for([:admin, @technical]) do |f| %>
-  <%= f.error_messages %>
-
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :tel1 %><br />
-    <%= f.text_field :tel1 %>
-  </p>
-  <p>
-    <%= f.label :tel2 %><br />
-    <%= f.text_field :tel2 %>
-  </p>
-  <p>
-    <%= f.label :nextel %><br />
-    <%= f.text_field :nextel %>
-  </p>
-  <p>
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </p>
-  <p>
-    <%= f.label :regions %><br />
-    <%= f.text_field :regions %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
+	<%= render :partial => "form", :locals => { :f => f } %>
 <% end %>
 
 <%= link_to 'Voltar', admin_technicals_path %>

@@ -18,7 +18,7 @@
     <td><%=h product.product_category %></td>
     <td><%= link_to 'Visualizar', admin_product_path(product) %></td>
     <td><%= link_to 'Edit', edit_admin_product_path(product) %></td>
-    <td><%= link_to 'Excluir', admin_product_path(product), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+    <td><%= link_to 'Excluir', admin_product_path(product), :confirm => 'Tem certeza?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
