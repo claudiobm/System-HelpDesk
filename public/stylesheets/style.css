@@ -2,4 +2,8 @@
 .show_address li{ display: block; float: left; margin: 0 10px 0 0; }
 .show_address li.title_address{ width: 180px; }
 
+.show_block { display: inline; }
+.show_block li{ display: block; float: left; margin: 0 10px 0 0; }
+.show_block li.title_address{ width: 180px; }
+
 .clear { clear: both; }

@@ -7,7 +7,7 @@ ActionController::Routing::Routes.draw do |map|
     admin.resources :order_categories
     admin.resources :order_types
     admin.resources :orders
-    admin.resources :equipment
+    admin.resources :equipments
     admin.resources :technicals_equipments
     admin.resources :technocal_client_addresses
     admin.resources :technicals
