@@ -20,6 +20,7 @@ class Admin::ClientsController < Admin::AdminController
 
   def new
     @client = Client.new
+    @technicals = Technical.all
 
     respond_to do |format|
       format.html # new.html.erb
