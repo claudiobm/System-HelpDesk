@@ -1,0 +1,9 @@
+<% form_remote_for TechnicalsEquipment.new(:equipment_id => @equipment.id), :url => '/admin/equipments/technical_remote' do |technical| %>
+	<%= technical.hidden_field :equipment_id %>
+	
+	<%= render :partial => '/admin/technicals_equipments/form', :locals => {:f => technical} %>
+	
+	<p>
+		<%= technical.submit 'Salvar' %>
+	</p>
+<% end %>

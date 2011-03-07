@@ -1,3 +1,2 @@
-jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/clients/shared/address_edit",
-																													:locals => {:client_address => @client_address}) %>');
+jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/clients/shared/address_edit", :locals => {:client_address => @client_address}) %>');
 jQuery('#form_modal').dialog('open');

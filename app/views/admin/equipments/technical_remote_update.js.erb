@@ -1,0 +1,4 @@
+jQuery("#technical_<%= @technical_equipment.id %>").remove()
+jQuery('.technical_list').append("<%= escape_javascript(render :partial => '/admin/equipments/shared/show_technical', :locals => {:technical => @technical}) %>");
+jQuery('#form_modal').dialog('close');
+technical_functions();

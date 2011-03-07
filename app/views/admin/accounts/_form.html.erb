@@ -1,0 +1,20 @@
+<%= f.error_messages %>
+
+<p>
+	<%= f.label :name %><br />
+	<%= f.text_field :name %>
+</p>
+
+<p>
+	<%= f.label :email %><br />
+	<%= f.text_field :email %>
+</p>
+
+<p>
+	<%= f.label :account_department %><br />
+	<%= f.collection_select(:account_department_id, AccountDepartment.all, :id, :name, :prompt => "Selecione o departamento") %>
+</p>
+
+<p>
+	<%= f.submit 'Update' %>
+</p>

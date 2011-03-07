@@ -73,10 +73,14 @@ class Admin::TechnicalsEquipmentsController < Admin::AdminController
   # DELETE /technicals_equipments/1.xml
   def destroy
     @technicals_equipment = TechnicalsEquipment.find(params[:id])
+    id = @technicals_equipment.id
     @technicals_equipment.destroy
 
     respond_to do |format|
       format.html { redirect_to(technicals_equipments_url) }
+      format.js {
+      	render :inline => "jQuery('#technical_#{id}').hide()";
+      }
       format.xml  { head :ok }
     end
   end

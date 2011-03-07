@@ -1,0 +1,42 @@
+<% content_for :ready do || %>
+	<%= render :partial => '/admin/equipments/js/technical' %>
+<% end %>
+
+<%= f.error_messages %>
+
+<p>
+	<%= f.label :name %><br />
+	<%= f.text_field :name %>
+</p>
+<p>
+	<%= f.label :description %><br />
+	<%= f.text_area :description %>
+</p>
+<p>
+	<%= f.label :amount %><br />
+	<%= f.text_field :amount %>
+</p>
+<p>
+	<%= f.label :delivery_date %><br />
+	<%= f.datetime_select :delivery_date, :order => [:day, :month, :year], :start_year => Time.now.year, :default => Time.now, :use_month_numbers => true %>
+</p>
+
+<h2>Técnicos</h2>
+
+<% unless @equipment.new_record? %>
+	<div class='technical_list'>
+		<% @equipment.technicals.each do |technical| %>
+			<%= render :partial => '/admin/equipments/shared/show_technical', :locals => {:technical => technical}%>
+		<% end %>
+	</div>
+	<div class='clear'><br/></div>
+	<div class="add_technical"><%= link_to 'Adicionar técnico', 'javascript: void(0)', :class => 'new_technical' %></div>
+<% else %>
+	<% fields_for :technical_attribute, TechnicalsEquipment.new() do |technical| %>
+		<%= render :partial => '/admin/technicals_equipments/form', :locals => {:f => technical} %>
+	<% end %>
+<% end %>
+
+<p>
+	<%= f.submit 'Salvar' %>
+</p>

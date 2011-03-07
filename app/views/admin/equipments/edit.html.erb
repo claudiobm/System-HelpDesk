@@ -1,0 +1,8 @@
+<h1>Editing equipment</h1>
+
+<% form_for([:admin, @equipment]) do |f| %>
+<%= render :partial => "form", :locals => { :f => f } %>
+<% end %>
+
+<%= link_to 'Visualizar', admin_equipment_path(@equipment) %> |
+<%= link_to 'Voltar', admin_equipment_path %>

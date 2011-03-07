@@ -1,0 +1,16 @@
+<%= f.error_messages %>
+
+<p>
+	<%= f.label :technical %><br />
+	<%= f.collection_select(:technical_id, Technical.all, :id, :name, :prompt => "Selecione um técnico") %>
+</p>
+
+<p>
+	<%= f.label :confirmation %><br />
+	<%= f.check_box :confirmation %>
+</p>
+
+<p>
+	<%= f.label :archive %><br />
+	<%= f.check_box :archive %>
+</p>

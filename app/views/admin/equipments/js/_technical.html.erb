@@ -1,0 +1,36 @@
+jQuery('#form_modal').dialog({
+    autoOpen: false,
+    bgiframe: true,
+    modal: true,
+    show: "blind",
+    width: "auto"
+});
+
+jQuery('.new_technical').click(function(){
+	jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/equipments/shared/technical") %>');
+	jQuery('#form_modal').dialog('open');
+});
+
+function technical_functions(){
+	jQuery('.destroy_technical').click(function(){
+		var id = jQuery(this).attr('id_technical')
+	
+		jQuery.ajax({
+			type: "delete",
+			url: "/admin/technicals_equipments/"+id,
+			dataType: "script"
+		});
+	});
+
+	jQuery('.edit_technical').click(function(){
+		var id = jQuery(this).attr('id_technical')
+
+		jQuery.ajax({
+			type: "get",
+			url: "/admin/technicals_equipments/edit/"+id,
+			dataType: "script"
+		});
+	});	
+};
+
+technical_functions()

@@ -1,0 +1,3 @@
+jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/equipments/shared/technical_edit", :locals => {:technical => @technicals_equipment}) %>');
+jQuery('#form_modal').dialog('open');
+technical_functions()

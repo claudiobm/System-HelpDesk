@@ -5,4 +5,8 @@ module ApplicationHelper
 		@client.technicals.include?(technical)
 	end
 	
+	def technical_belongs_to_equipment?(technical)
+		@equipment.technicals.include?(technical)
+	end
+	
 end

@@ -1,0 +1,10 @@
+<ul id="technical_<%= technical.id %>" class='show_block'>
+	<li class='name_technical'><%= technical.name %></li>
+	<li class='edit_technical'>
+		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_technical', :id_technical => technical.id %>
+	</li>
+	<li class='destroy_technical'>
+		<%= link_to 'Excluir', 'javascript: void(0)', :class => 'destroy_technical', :id_technical => technical.id %>
+	</li>
+</ul>
+<div class='clear'><!-- --></div>
