@@ -1,7 +1,7 @@
 <%= f.error_messages %>
 
 <p>
-	<%= f.label :order_type, "Tipo" %><br />
+	<%= f.label :order_type, "Tipo problema" %><br />
 	<%= f.collection_select(:order_type_id, OrderType.all, :id, :name, :prompt => "Selecione o tipo") %>
 </p>
 
