@@ -1,0 +1,30 @@
+<%= f.error_messages %>
+
+<p>
+	<%= f.label :product, "Produto" %><br />
+	<%= f.text_field :product %>
+</p>
+
+<p>
+	<%= f.label :amount, "Quantidade" %><br />
+	<%= f.text_field :amount %>
+</p>
+
+<p>
+	<%= f.label :lote %><br />
+	<%= f.text_field :lote %>
+</p>
+
+<p>
+	<%= f.label :resolved, "Resolvido" %><br />
+	<%= f.check_box :resolved %>
+</p>
+
+<p>
+	<%= f.label :description, "Descrição" %><br />
+	<%= f.text_area :description %>
+</p>
+
+<p>
+	<%= f.submit 'Salvar' %>
+</p>

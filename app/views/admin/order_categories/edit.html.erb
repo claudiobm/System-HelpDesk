@@ -1,19 +1,7 @@
 <h1>Editing order_category</h1>
 
 <% form_for([:admin, @order_category]) do |f| %>
-  <%= f.error_messages %>
-
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
+	<%= render :partial => "form", :locals => { :f => f } %>
 <% end %>
 
 <%= link_to 'Visualizar', admin_order_category_path(@order_category) %> |

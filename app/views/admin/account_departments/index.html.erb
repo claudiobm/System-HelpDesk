@@ -2,8 +2,8 @@
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Description</th>
+    <th>Nome</th>
+    <th>Descrição</th>
   </tr>
 
 <% @account_departments.each do |account_department| %>
@@ -12,7 +12,7 @@
     <td><%=h account_department.description %></td>
     <td><%= link_to 'Visualizar', admin_account_department_path(account_department) %></td>
     <td><%= link_to 'Edit', edit_admin_account_department_path(account_department) %></td>
-    <td><%= link_to 'Excluir', admin_account_department_path(account_department), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+    <td><%= link_to 'Excluir', admin_account_department_path(account_department), :confirm => 'Tem certeza?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>

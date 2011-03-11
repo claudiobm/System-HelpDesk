@@ -2,9 +2,9 @@
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Account department</th>
+    <th>Nome</th>
+    <th>E-mail</th>
+    <th>Departamento</th>
   </tr>
 
 <% @accounts.each do |account| %>
@@ -14,7 +14,7 @@
     <td><%=h account.account_department %></td>
     <td><%= link_to 'Visualizar', admin_account_path(account) %></td>
     <td><%= link_to 'Edit', edit_admin_account_path(account) %></td>
-    <td><%= link_to 'Excluir', admin_account_path(account), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+    <td><%= link_to 'Excluir', admin_account_path(account), :confirm => 'Tem certeza?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>

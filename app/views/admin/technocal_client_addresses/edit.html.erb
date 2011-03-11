@@ -1,19 +1,7 @@
 <h1>Editing technocal_client_address</h1>
 
 <% form_for([:admin, @technocal_client_address]) do |f| %>
-  <%= f.error_messages %>
-
-  <p>
-    <%= f.label :technical %><br />
-    <%= f.text_field :technical %>
-  </p>
-  <p>
-    <%= f.label :client_address %><br />
-    <%= f.text_field :client_address %>
-  </p>
-  <p>
-    <%= f.submit 'Update' %>
-  </p>
+	<%= render :partial => "form", :locals => { :f => f } %>
 <% end %>
 
 <%= link_to 'Visualizar', admin_technocal_client_address_path(@technocal_client_address) %> |

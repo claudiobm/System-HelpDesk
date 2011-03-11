@@ -1,0 +1,15 @@
+<%= f.error_messages %>
+
+<p>
+	<%= f.label :technical, "Técnico" %><br />
+	<%= f.collection_select(:technical_id, Technical.all, :id, :name) %>
+</p>
+
+<p>
+	<%= f.label :client_address, "Endereço do cliente" %><br />
+	<%= f.text_field :client_address %>
+</p>
+
+<p>
+	<%= f.submit 'Salvar' %>
+</p>

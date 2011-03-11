@@ -1,19 +1,7 @@
 <h1>New order_type</h1>
 
 <% form_for([:admin, @order_type]) do |f| %>
-  <%= f.error_messages %>
-
-  <p>
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </p>
-  <p>
-    <%= f.label :description %><br />
-    <%= f.text_area :description %>
-  </p>
-  <p>
-    <%= f.submit 'Create' %>
-  </p>
+	<%= render :partial => "form", :locals => { :f => f } %>
 <% end %>
 
 <%= link_to 'Voltar', admin_order_types_path %>

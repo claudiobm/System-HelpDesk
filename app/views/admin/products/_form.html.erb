@@ -1,30 +1,30 @@
 <%= f.error_messages %>
 
 <p>
-	<%= f.label :name %><br />
+	<%= f.label :name, "Nome" %><br />
 	<%= f.text_field :name %>
 </p>
 
 <p>
-	<%= f.label :cod %><br />
+	<%= f.label :cod, "Código" %><br />
 	<%= f.text_field :cod %>
 </p>
 
 <p>
-	<%= f.label :cod_universal %><br />
+	<%= f.label :cod_universal, "Código universal" %><br />
 	<%= f.text_field :cod_universal %>
 </p>
 
 <p>
-	<%= f.label :description %><br />
+	<%= f.label :description, "Descrição" %><br />
 	<%= f.text_area :description %>
 </p>
 
 <p>
-	<%= f.label :product_category %><br />
+	<%= f.label :product_category, "Categoria" %><br />
 	<%= f.collection_select(:product_category_id, ProductCategory.all, :id, :name, :blank => true) %>
 </p>
 
 <p>
-	<%= f.submit 'Create' %>
+	<%= f.submit 'Salvar' %>
 </p>

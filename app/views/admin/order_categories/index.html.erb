@@ -12,7 +12,7 @@
     <td><%=h order_category.description %></td>
     <td><%= link_to 'Visualizar', admin_order_category_path(order_category) %></td>
     <td><%= link_to 'Edit', edit_admin_order_category_path(order_category) %></td>
-    <td><%= link_to 'Excluir', admin_order_category_path(order_category), :confirm => 'Tem certeza?', :method => :delete %> %></td>
+    <td><%= link_to 'Excluir', admin_order_category_path(order_category), :confirm => 'Tem certeza?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
