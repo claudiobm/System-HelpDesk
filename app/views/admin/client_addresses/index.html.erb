@@ -1,20 +1,20 @@
-<h1>Listing client_addresses</h1>
+<h1>Listas endereços e clientes</h1>
 
 <table>
   <tr>
-    <th>Client</th>
-    <th>Title</th>
-    <th>Address</th>
-    <th>City</th>
-    <th>State</th>
-    <th>District</th>
-    <th>Zipcode</th>
-    <th>Default</th>
+    <th>Cliente</th>
+    <th>Indentificação do endereço</th>
+    <th>Endereço</th>
+    <th>Cidade</th>
+    <th>Estado</th>
+    <th>Bairro</th>
+    <th>CEP</th>
+    <th>Padrão</th>
   </tr>
 
 <% @client_addresses.each do |client_address| %>
   <tr>
-    <td><%=h client_address.client %></td>
+    <td><%=h client_address.client.name rescue "" %></td>
     <td><%=h client_address.title %></td>
     <td><%=h client_address.address %></td>
     <td><%=h client_address.city %></td>

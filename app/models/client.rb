@@ -1,5 +1,5 @@
 class Client < ActiveRecord::Base
-  belongs_to :children, :class_name => "Client"
+  belongs_to :children, :class_name => "Client", :foreign_key => :parent_id
   has_many :addresses, :class_name => "ClientAddress"
   has_and_belongs_to_many :technicals
   

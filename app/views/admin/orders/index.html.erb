@@ -1,19 +1,17 @@
-<h1>Listing orders</h1>
+<h1>Listas chamados</h1>
 
 <table>
   <tr>
-    <th>Order type</th>
-    <th>Order category</th>
-    <th>Client</th>
-    <th>Account</th>
-    <th>Technical</th>
-    <th>Technical information</th>
+    <th>Tipo</th>
+    <th>Categoria</th>
+    <th>Cliente</th>
+    <th>Usuário</th>
+    <th>Tecnico</th>
+    <th>Tecnico informado em</th>
     <th>Status</th>
-    <th>Description</th>
-    <th>Observation</th>
-    <th>Notification</th>
+    <th>Notificado</th>
     <th>First call fix</th>
-    <th>Done</th>
+    <th>Concludo</th>
   </tr>
 
 <% @orders.each do |order| %>
@@ -25,8 +23,6 @@
     <td><%=h order.technical %></td>
     <td><%=h order.technical_information %></td>
     <td><%=h order.status %></td>
-    <td><%=h order.description %></td>
-    <td><%=h order.observation %></td>
     <td><%=h order.notification %></td>
     <td><%=h order.first_call_fix %></td>
     <td><%=h order.done %></td>
@@ -39,4 +35,4 @@
 
 <br />
 
-<%= link_to 'New order', new_admin_order_path %>
+<%= link_to 'Novo chamado', new_admin_order_path %>

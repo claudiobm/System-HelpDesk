@@ -1,17 +1,15 @@
-<h1>Listing equipment</h1>
+<h1>Listas equipamentos</h1>
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Description</th>
-    <th>Amount</th>
-    <th>Delivery date</th>
+    <th>Nome</th>
+    <th>Quantidade</th>
+    <th>Enviado em</th>
   </tr>
 
 <% @equipment.each do |equipment| %>
   <tr>
     <td><%=h equipment.name %></td>
-    <td><%=h equipment.description %></td>
     <td><%=h equipment.amount %></td>
     <td><%=h equipment.delivery_date %></td>
     <td><%= link_to 'Visualizar', admin_equipment_path(equipment) %></td>
@@ -23,4 +21,4 @@
 
 <br />
 
-<%= link_to 'New equipment', new_admin_equipment_path %>
+<%= link_to 'Novo equipamento', new_admin_equipment_path %>

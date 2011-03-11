@@ -2,12 +2,11 @@
 
 <table>
   <tr>
-    <th>Product</th>
-    <th>Order</th>
-    <th>Amount</th>
+    <th>Produto</th>
+    <th>Chamado</th>
+    <th>Quantidade</th>
     <th>Lote</th>
-    <th>Resolved</th>
-    <th>Description</th>
+    <th>Resolvido?</th>
   </tr>
 
 <% @orders_products.each do |orders_product| %>
@@ -17,7 +16,6 @@
     <td><%=h orders_product.amount %></td>
     <td><%=h orders_product.lote %></td>
     <td><%=h orders_product.resolved %></td>
-    <td><%=h orders_product.description %></td>
     <td><%= link_to 'Visualizar', admin_orders_product_path(orders_product) %></td>
     <td><%= link_to 'Edit', edit_admin_orders_product_path(orders_product) %></td>
     <td><%= link_to 'Excluir', admin_orders_product_path(orders_product), :confirm => 'Tem certeza?', :method => :delete %> %></td>

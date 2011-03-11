@@ -1,15 +1,13 @@
-<h1>Listing order_categories</h1>
+<h1>Listas de categorias</h1>
 
 <table>
   <tr>
-    <th>Name</th>
-    <th>Description</th>
+    <th>Nome</th>
   </tr>
 
 <% @order_categories.each do |order_category| %>
   <tr>
     <td><%=h order_category.name %></td>
-    <td><%=h order_category.description %></td>
     <td><%= link_to 'Visualizar', admin_order_category_path(order_category) %></td>
     <td><%= link_to 'Edit', edit_admin_order_category_path(order_category) %></td>
     <td><%= link_to 'Excluir', admin_order_category_path(order_category), :confirm => 'Tem certeza?', :method => :delete %></td>
@@ -19,4 +17,4 @@
 
 <br />
 
-<%= link_to 'New order_category', new_admin_order_category_path %>
+<%= link_to 'Nova categoria', new_admin_order_category_path %>

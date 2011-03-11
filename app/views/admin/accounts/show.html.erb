@@ -1,16 +1,16 @@
 <p>
-  <b>Name:</b>
+  <b>Nome:</b>
   <%=h @account.name %>
 </p>
 
 <p>
-  <b>Email:</b>
+  <b>E-mail:</b>
   <%=h @account.email %>
 </p>
 
 <p>
-  <b>Account department:</b>
-  <%=h @account.account_department %>
+  <b>Departamento:</b>
+  <%=h @account.account_department.name rescue "" %>
 </p>
 
 

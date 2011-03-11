@@ -1,40 +1,40 @@
 <p>
-  <b>Client:</b>
-  <%=h @client_address.client %>
+  <b>Cliente:</b>
+  <%=h @client_address.client.name rescue "" %>
 </p>
 
 <p>
-  <b>Title:</b>
+  <b>Indentificação do endereço:</b>
   <%=h @client_address.title %>
 </p>
 
 <p>
-  <b>Address:</b>
+  <b>Endereço:</b>
   <%=h @client_address.address %>
 </p>
 
 <p>
-  <b>City:</b>
+  <b>Cidade:</b>
   <%=h @client_address.city %>
 </p>
 
 <p>
-  <b>State:</b>
+  <b>Estado:</b>
   <%=h @client_address.state %>
 </p>
 
 <p>
-  <b>District:</b>
+  <b>Bairro:</b>
   <%=h @client_address.district %>
 </p>
 
 <p>
-  <b>Zipcode:</b>
+  <b>CEP:</b>
   <%=h @client_address.zipcode %>
 </p>
 
 <p>
-  <b>Default:</b>
+  <b>Padrão:</b>
   <%=h @client_address.default %>
 </p>
 
