@@ -1,0 +1,2 @@
+jQuery('#form_modal').html('<%= escape_javascript( render :partial => "/admin/orders/shared/product_edit", :locals => {:orders_product => @orders_product}) %>');
+jQuery('#form_modal').dialog('open');

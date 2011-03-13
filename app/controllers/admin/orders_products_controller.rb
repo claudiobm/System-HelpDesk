@@ -35,6 +35,13 @@ class Admin::OrdersProductsController < Admin::AdminController
   # GET /orders_products/1/edit
   def edit
     @orders_product = OrdersProduct.find(params[:id])
+    @product = @orders_product.product
+    @order = @orders_product.order
+    
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   # POST /orders_products

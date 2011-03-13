@@ -1,0 +1,10 @@
+<ul id="product_<%= product.id %>" class='show_product'>
+	<li class='title_product'><%= product.name %></li>
+	<li class='edit_product'>
+		<%= link_to 'Editar', 'javascript: void(0)', :class => 'edit_product', :id_product => product.id %>
+	</li>
+	<li class='destroy_product'>
+		<%= link_to 'Excluir', 'javascript: void(0)', :class => 'destroy_product', :id_product => product.id %>
+	</li>
+</ul>
+<div class='clear'><!-- --></div>

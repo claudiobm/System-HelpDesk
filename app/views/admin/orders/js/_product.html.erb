@@ -1,0 +1,37 @@
+jQuery('#form_modal').dialog({
+    autoOpen: false,
+    bgiframe: true,
+    modal: true,
+    show: "blind",
+    width: "auto"
+});
+
+jQuery('.new_product').click(function(){
+	jQuery('#form_product').append('<%= escape_javascript( 
+		fields_for  "order[products_attributes][]", OrdersProduct.new() do |product|
+			render :partial => '/admin/orders_products/form', :locals => {:f => product}
+		end
+	)%>');
+});
+
+jQuery('.destroy_product').click(function(){
+	var id = jQuery(this).attr('id_product')
+
+	jQuery.ajax({
+		type: "delete",
+		url: "/admin/orders_products/"+id,
+		dataType: "script"
+	});
+	
+	jQuery(this).parent('ul').remove();
+});
+
+jQuery('.edit_product').click(function(){
+	var id = jQuery(this).attr('id_product')
+
+	jQuery.ajax({
+		type: "get",
+		url: "/admin/orders_products/edit/"+id,
+		dataType: "script"
+	});
+});

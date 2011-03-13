@@ -1,3 +1,7 @@
+<% content_for :ready do || %>
+	<%= render :partial => '/admin/orders/js/product' %>
+<% end %>
+
 <%= f.error_messages %>
 
 <p>
@@ -29,7 +33,7 @@
 	<%= f.label :description, "Descrição" %><br />
 	<%= f.text_area :description %>
 </p>
- 
+
 <p>
 	<%= f.label :technical, "Técnico" %><br />
 	<%= f.collection_select(:technical_id, Technical.all, :id, :name) %>
@@ -39,14 +43,35 @@
 	<%= f.label :technical_information, "Técnico informado em" %><br />
 	<%= f.datetime_select :technical_information, :order => [:day, :month, :year], :start_year => Time.now.year, :default => Time.now, :use_month_numbers => true %>
 </p>
-  
+
 <p>
 	<%= f.label :observation, "Observação" %><br />
 	<%= f.text_area :observation %>
 </p>
+
+<h2>Produtos</h2>
+
+<% unless @order.new_record? %>
+	<div class='products_list'>
+		<% @order.products.each do |product| %>
+			<%= render :partial => '/admin/orders/shared/show_product', :locals => {:product => product}%>
+		<% end %>
+	</div>
+	<div id="form_product"><!-- --></div>
+	<div class='clear'><br/></div>
+	<div class="add_product"><%= link_to 'Adicionar endereço', 'javascript: void(0)', :class => 'new_product' %></div>
+<% else %>
+	<div id="form_product">
+		<% f.fields_for "products_attributes[]", OrdersProduct.new() do |product| %>
+			<%= render :partial => '/admin/orders_products/form', :locals => {:f => product} %>
+		<% end %>
+	</div>
+	
+	<div class="add_product"><%= link_to 'Adicionar endereço', 'javascript: void(0)', :class => 'new_product' %></div>
+<% end %>
   
 <p>
-	<%= f.label :notification, "Notificado" %><br />
+	<%= f.label :notification, "Técnico notificado" %><br />
 	<%= f.check_box :notification %>
 </p>
 
@@ -56,7 +81,7 @@
 </p>
 
 <p>
-	<%= f.label :done, "Resolvido" %><br />
+	<%= f.label :done, "Concluido" %><br />
 	<%= f.check_box :done %>
 </p>
   

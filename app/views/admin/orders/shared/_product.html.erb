@@ -1,0 +1,7 @@
+<% form_remote_for OrdersProduct.new(:order_id => @order.id), :url => '/admin/orders/product_remote' do |product| %>
+	<%= product.hidden_field :order_id %>
+	<%= render :partial => '/admin/order_productes/form', :locals => {:f => product} %>
+	<p>
+		<%= product.submit 'Salvar' %>
+	</p>
+<% end %>

@@ -1,0 +1,2 @@
+jQuery('.addresses_list').append("<%= escape_javascript(render :partial => '/admin/clients/shared/show_address', :locals => {:address => @address}) %>");
+jQuery('#form_modal').dialog('close');

@@ -68,6 +68,16 @@ class Admin::OrdersController < Admin::AdminController
       end
     end
   end
+  
+  def product_remote_update
+  	@orders_product = OrdersProduct.find(params[:id])
+  	@orders_product.update_attributes(params[:orders_product])
+  	@product = @orders_product.product
+  	
+	respond_to do |format|
+		format.js
+	end
+  end
 
   # DELETE /orders/1
   # DELETE /orders/1.xml

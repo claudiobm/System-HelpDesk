@@ -2,7 +2,7 @@
 
 <p>
 	<%= f.label :product, "Produto" %><br />
-	<%= f.text_field :product %>
+	<%= f.collection_select(:product_id, Product.all, :id, :name) %>
 </p>
 
 <p>
@@ -16,15 +16,6 @@
 </p>
 
 <p>
-	<%= f.label :resolved, "Resolvido" %><br />
-	<%= f.check_box :resolved %>
-</p>
-
-<p>
-	<%= f.label :description, "Descrição" %><br />
+	<%= f.label :description, "Problema com o produto" %><br />
 	<%= f.text_area :description %>
-</p>
-
-<p>
-	<%= f.submit 'Salvar' %>
 </p>

@@ -1,0 +1,3 @@
+jQuery('#product_<%= @orders_product.id %>').remove()
+jQuery('.products_list').append("<%= escape_javascript(render :partial => '/admin/orders/shared/show_product', :locals => {:product => @product}) %>");
+jQuery('#form_modal').dialog('close');
