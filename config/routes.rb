@@ -6,7 +6,7 @@ ActionController::Routing::Routes.draw do |map|
     admin.resources :orders_products
     admin.resources :order_categories
     admin.resources :order_types
-    admin.resources :orders
+    admin.resources :orders, :member => { :address_remote_update => :post }
     admin.resources :equipments
     admin.resources :technicals_equipments
     admin.resources :technocal_client_addresses
