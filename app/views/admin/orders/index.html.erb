@@ -16,11 +16,11 @@
 
 <% @orders.each do |order| %>
   <tr>
-    <td><%=h order.order_type %></td>
-    <td><%=h order.order_category %></td>
-    <td><%=h order.client %></td>
-    <td><%=h order.account %></td>
-    <td><%=h order.technical %></td>
+    <td><%=h order.order_type.name rescue "" %></td>
+    <td><%=h order.order_category.name rescue "" %></td>
+    <td><%=h order.client.name rescue "" %></td>
+    <td><%=h order.account.name rescue "" %></td>
+    <td><%=h order.technical.name rescue "" %></td>
     <td><%=h order.technical_information %></td>
     <td><%=h order.status %></td>
     <td><%=h order.notification %></td>
