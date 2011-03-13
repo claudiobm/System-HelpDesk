@@ -26,8 +26,8 @@
 </p>
 
 <p>
-	<%= f.label :regions %><br />
-	<%# f.text_field :regions %>
+	<%= f.label :regions, "Regiões" %><br />
+	<%= f.collection_select(:region_id, Region.all, :id, :name, :blank => true) %>
 </p>
 
 <p>

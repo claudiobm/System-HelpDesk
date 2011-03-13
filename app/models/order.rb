@@ -6,6 +6,8 @@ class Order < ActiveRecord::Base
 	belongs_to :account
 	belongs_to :technical
 	has_and_belongs_to_many :products
+	
+	validates_presence_of :order_category, :client_id, :account_id
   
 	STATUS = ["Aberto", "Em andamento", "Feedback", "Rejeitado", "Fechado"]
 	

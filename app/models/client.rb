@@ -3,6 +3,8 @@ class Client < ActiveRecord::Base
   has_many :addresses, :class_name => "ClientAddress"
   has_and_belongs_to_many :technicals
   
+  validates_presence_of :name, :tel1
+  
   def address_attribute=(address_attribute)
   	addresses.build(address_attribute)
   end
