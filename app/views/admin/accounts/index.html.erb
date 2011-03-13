@@ -11,7 +11,7 @@
   <tr>
     <td><%=h account.name %></td>
     <td><%=h account.email %></td>
-    <td><%=h account.account_department.name resuce "" %></td>
+    <td><%=h account.account_department.name rescue "" %></td>
     <td><%= link_to 'Visualizar', admin_account_path(account) %></td>
     <td><%= link_to 'Edit', edit_admin_account_path(account) %></td>
     <td><%= link_to 'Excluir', admin_account_path(account), :confirm => 'Tem certeza?', :method => :delete %></td>
