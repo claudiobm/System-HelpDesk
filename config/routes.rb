@@ -18,6 +18,11 @@ ActionController::Routing::Routes.draw do |map|
     admin.root :controller => :products
   end
   
+  map.namespace :reports do |reports|
+  	reports.resource :products, :member => {:export => :post}, :only => [:index, :show, :new]
+  	reports.root :controller => :products, :action => :index
+  end
+  
   map.root :controller => "main"
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
